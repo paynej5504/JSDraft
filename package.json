@@ -1,0 +1,71 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/generator": "^7.12.5",
+    "@glimmer/syntax": "^0.67.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.0",
+    "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.0",
+    "babel": "^6.23.0",
+    "chart.js": "^2.9.4",
+    "classnames": "^2.2.6",
+    "dont-sniff-mimetype": "^1.1.0",
+    "handlebars-jsx-adapter": "^0.2.1",
+    "handlebars-react": "0.0.16",
+    "handlebars-to-jsx": "^0.1.2",
+    "helmet": "^4.2.0",
+    "jscrambler": "^5.5.14",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-alert": "^7.0.2",
+    "react-alert-template-basic": "^1.0.0",
+    "react-alert-template-mui": "^1.0.7",
+    "react-chartjs-2": "^2.11.1",
+    "react-cookie": "^4.0.3",
+    "react-countup": "^4.3.3",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-transition-group": "^4.4.1",
+    "sfcookies": "^1.0.2",
+    "typescript": "^4.1.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3000/",
+  "devDependencies": {
+    "csp-html-webpack-plugin": "^4.0.0",
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.1.6"
+  }
+}

@@ -1,0 +1,30 @@
+/*body styles*/
+body {
+    background: linear-gradient(lightCyan , aliceBlue, snow );
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+/*container styles*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*if the screen size is below 770px the continer styles will change*/
+@media only screen and (max-width: 770px) {
+    .container {
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+    }
+  }
+
+  /*styles for alert box*/
+  .alert {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
